@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(21, 21, 20);
+    font-family: "robonto", sans-serif;
+}
+
+#netf{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    max-width: ;
+    width: 20%;
+    justify-content: space-between;
+    position: absolute;
+    left: 2vw;
+    top: 3vh;
+}
+
+#prof{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right:2vw;
+    width: 10%;
+    justify-content: space-around;
+    height:fit-content;
+
+}
+
+.spa,.spa button{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    row-gap: 1000px;
+    /* justify-content: space-around; */
+}
+
+.spa img,.spa p,.spa button{
+    margin-left: 10px;
+}
+
+#maid{
+    position: relative;
+    left:5vw;
+    top:40vh;
+}
+
+#front{
+    background-image: url("assets/Title-Image.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+
+}
+
+.flexx{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 30px;
+}
+
+.flexxx{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flexxx span{
+    margin-right: 20px;
+    align-items: center;
+}
+
+p{
+    color: white;
+}
+
+.title{
+    position: relative;
+    left: 30px;
+}
+
+tr{
+    font-size: 20px;
+}
+
+.flexx img{
+    margin-right: 20px;
+    width: 18vw;
+}
+
+.flexxx img{
+    width: 8vw;
+}
+
+#netf img{
+    z-index: 0;
+}
+td{
+    color: white;
+    font-family: "robonto", sans-serif;
+    
+}
+
+footer button{
+    background-color: rgb(21, 21, 20);
+    border-radius: 5px;
+}
+
+button{
+    border-radius: 5px;
+    background-color: rgb(140, 140, 144);
+}
+
+footer img,footer table,footer button,footer p{
+    position: relative;
+    left:15vw;
+    margin-right: 10px;
+
+}
+
+footer table{
+    border-spacing: 50px;
+}
